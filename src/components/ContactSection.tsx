@@ -1,5 +1,13 @@
 import { useState } from "react";
-import { Send, Mail, MapPin, Phone, Linkedin, Twitter, Github } from "lucide-react";
+import {
+  Send,
+  Mail,
+  MapPin,
+  Phone,
+  Linkedin,
+  Twitter,
+  Github,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
@@ -21,7 +29,9 @@ const ContactSection = () => {
     setFormData({ name: "", email: "", company: "", message: "" });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -37,14 +47,16 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left Content */}
           <div>
-            <span className="text-primary font-medium mb-4 block">Get in Touch</span>
+            <span className="text-primary font-medium mb-4 block">
+              Get in Touch
+            </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Let's Build Something{" "}
               <span className="text-gradient">Amazing Together</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
-              Ready to transform your digital presence? Get in touch with our team 
-              and let's discuss how we can help you achieve your goals.
+              Ready to transform your digital presence? Get in touch with our
+              team and let's discuss how we can help you achieve your goals.
             </p>
 
             {/* Contact Info */}
@@ -55,7 +67,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <div className="font-medium">hello@devforge.com</div>
+                  <div className="font-medium">pavana004@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -64,7 +76,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Phone</div>
-                  <div className="font-medium">+1 (555) 123-4567</div>
+                  <div className="font-medium">+91 7598483416</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -73,7 +85,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Location</div>
-                  <div className="font-medium">San Francisco, CA</div>
+                  <div className="font-medium">Tamil Nadu,India</div>
                 </div>
               </div>
             </div>
@@ -98,7 +110,10 @@ const ContactSection = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium mb-2"
+                  >
                     Your Name
                   </label>
                   <input
@@ -113,7 +128,10 @@ const ContactSection = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium mb-2"
+                  >
                     Email Address
                   </label>
                   <input
@@ -129,7 +147,10 @@ const ContactSection = () => {
                 </div>
               </div>
               <div>
-                <label htmlFor="company" className="block text-sm font-medium mb-2">
+                <label
+                  htmlFor="company"
+                  className="block text-sm font-medium mb-2"
+                >
                   Company Name
                 </label>
                 <input
@@ -143,7 +164,10 @@ const ContactSection = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium mb-2"
+                >
                   Your Message
                 </label>
                 <textarea
