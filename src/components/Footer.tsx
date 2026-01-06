@@ -31,17 +31,21 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">&lt;/&gt;</span>
+                <span className="text-primary-foreground font-bold text-xl">
+                  bhb
+                </span>
               </div>
-              <span className="text-xl font-bold text-foreground">DevForge</span>
+              <span className="text-xl font-bold text-foreground">BHB</span>
             </a>
             <p className="text-muted-foreground max-w-sm mb-6 leading-relaxed">
-              Building the future of digital experiences, one pixel at a time. 
+              Building the future of digital experiences, one pixel at a time.
               Your trusted partner for web development excellence.
             </p>
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-              <span className="text-sm text-muted-foreground">Available for new projects</span>
+              <span className="text-sm text-muted-foreground">
+                Available for new projects
+              </span>
             </div>
           </div>
 
