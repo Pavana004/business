@@ -35,7 +35,9 @@ const Footer = () => {
                   bhb
                 </span>
               </div>
-              <span className="text-xl font-bold text-foreground">BHB</span>
+              <span className="text-xl font-bold text-foreground">
+                SOLUTION
+              </span>
             </a>
             <p className="text-muted-foreground max-w-sm mb-6 leading-relaxed">
               Building the future of digital experiences, one pixel at a time.
