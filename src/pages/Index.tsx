@@ -20,7 +20,7 @@ const Index = () => {
           name="keywords"
           content="web development, web applications, UI/UX design, e-commerce, API integration, software development"
         />
-        <link rel="" href="" />
+        <link rel="icon" type="image/x-icon" href="logo.png" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

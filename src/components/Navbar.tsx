@@ -18,12 +18,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">
-                bhb
-              </span>
+            <div className="w-10 h-10 rounded-lg  flex items-center justify-center">
+              <img src="logo.png" alt="BHB Logo" className="rounded-lg" />
             </div>
-            <span className="text-xl font-bold text-foreground">SOLUTION</span>
+            <span className="text-xl font-bold text-foreground">BHB</span>
           </a>
 
           {/* Desktop Navigation */}

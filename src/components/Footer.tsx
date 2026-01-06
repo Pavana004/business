@@ -30,14 +30,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">
-                  bhb
-                </span>
+              <div className="w-10 h-10 rounded-lg  flex items-center justify-center">
+                <img src="logo.png" alt="BHB Logo" className="rounded-lg" />
               </div>
-              <span className="text-xl font-bold text-foreground">
-                SOLUTION
-              </span>
+              <span className="text-xl font-bold text-foreground">BHB</span>
             </a>
             <p className="text-muted-foreground max-w-sm mb-6 leading-relaxed">
               Building the future of digital experiences, one pixel at a time.
