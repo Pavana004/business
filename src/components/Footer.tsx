@@ -74,11 +74,9 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} DevForge. All rights reserved.
+            © {currentYear} BHB. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm">
-            Designed & Developed with ♥ in San Francisco
-          </p>
+          <p className="text-muted-foreground text-sm">BHB Solution Pvt Ltd</p>
         </div>
       </div>
     </footer>
