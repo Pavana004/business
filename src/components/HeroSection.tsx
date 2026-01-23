@@ -17,12 +17,12 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary border border-border mb-8 animate-fade-in">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary border border-border mb-8 animate-fade-in">
             <Zap className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">
               Trusted by Worldwide
             </span>
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1
