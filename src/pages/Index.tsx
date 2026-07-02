@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>BHB | Web Development & Application Solutions</title>
+        <title>METAMERGE TECHNOLOGIES | Web Development & Application Solutions</title>
         <meta
           name="description"
           content="Transform your digital presence with BHB. We build scalable websites, web applications, and e-commerce solutions with cutting-edge technology and stunning design."
