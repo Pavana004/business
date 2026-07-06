@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-lg  flex items-center justify-center">
               <img src="logo.png" alt="BHB Logo" className="rounded-lg" />
             </div>
-            <span className="text-xl font-bold text-foreground">METAMERGE TECHNOLOGIES</span>
+            <span className="text-xl font-bold text-foreground">MMT TECH</span>
           </a>
 
           {/* Desktop Navigation */}
